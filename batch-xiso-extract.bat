@@ -1,6 +1,6 @@
 @echo OFF
 echo:
-echo Batch XISO Extractor v1.0
+echo Batch XISO Extract v1.0
 echo:
 set choice=
 set /p choice=Delete source ISO files after extracting? (Y/[N]) 
@@ -19,5 +19,5 @@ for /F "tokens=*" %%A in (infile.txt) do (
 	)
 )
 echo:
-echo Batch XISO extract complete.
+echo Batch XISO extraction complete.
 @echo ON
