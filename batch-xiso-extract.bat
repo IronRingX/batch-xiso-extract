@@ -19,5 +19,6 @@ for /F "tokens=*" %%A in (infile.txt) do (
 	)
 )
 echo:
+del infile.txt
 echo Batch XISO extraction complete.
 @echo ON
